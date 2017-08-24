@@ -1,7 +1,6 @@
-@import "https://fonts.googleapis.com/css?family=Indie+Flower|Lato|Oswald";
+@import "https://fonts.googleapis.com/css?family=Lato|Oswald";
 
-/*font-family: 'Indie Flower', cursive;
-font-family: 'Oswald', sans-serif;
+/*font-family: 'Oswald', sans-serif;
 font-family: 'Lato', sans-serif;*/
 
 body {
@@ -11,6 +10,7 @@ body {
 	box-sizing: border-box;
 	color: #1A3A3A;
 
+	/* background image */
 	background-image: url("images/zen_3.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -76,7 +76,7 @@ a {
 	padding-right: 45%;
 	font-size: 1.25em;
 	background-color: #A997DF;
-	/*opacity: 0.9;*/
+	margin-bottom: 6%;
 }
 
 /***** MAIN *****/
@@ -89,21 +89,18 @@ a {
 #zen-explanation, #zen-participation, #zen-benefits, #zen-requirements {
 	padding: 2% 4%;
 	font-size: 1.5em;
-	width: 60%;
-	margin-bottom: 3%;
-	/*padding-right: 10%;*/
-	/*opacity: 0.8;*/
+	width: 55%;
+	margin-bottom: 6%;
+
 }
 
 #zen-explanation, #zen-benefits {
 	background-color: #4F517D;
 	color: #FFF;
-	/*float: left;*/
 }
 
 #zen-participation, #zen-requirements {
 	background-color: #A997DF;
-	/*float: right;*/
 }
 
 /***** FOOTER *****/
@@ -147,10 +144,4 @@ footer a {
 
 #zen-supporting {
 	padding-bottom: 0;
-	/*background-image: url("images/zen_3.jpg");
-	background-size: 100%;
-	background-position: absolute;
-	bottom: 0;
-	left: 0;
-	background-repeat: no-repeat;*/
 }
