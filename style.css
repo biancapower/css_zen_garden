@@ -91,7 +91,6 @@ a {
 	font-size: 1.5em;
 	width: 55%;
 	margin-bottom: 6%;
-
 }
 
 #zen-explanation, #zen-benefits {
@@ -126,7 +125,7 @@ footer a {
 	background-color: #1A3A3A;
 	color: #FFF;
 	opacity: 0.9;
-	padding: 5%;
+	padding: 2% 5% 5% 5%;
 	width: 20%;
 	height: 65%;
 	margin: 4% 2%;
@@ -144,4 +143,58 @@ footer a {
 
 #zen-supporting {
 	padding-bottom: 0;
+}
+
+/***** MEDIA QUERIES *****/
+
+
+@media screen and (max-width: 1300px) {
+    .sidebar {
+			padding-top: 1%;
+			padding-bottom: 6%;
+			margin-top: 2%;
+			height: 85%;
+    }
+
+		footer a {
+			padding: 0 6.5%;
+		}
+
+		#zen-summary a {
+			border: none;
+		}
+}
+
+
+@media screen and (max-width: 880px) {
+		body {
+			background-image: none;
+		}
+
+    .sidebar {
+			display: none;			/*FIXME: make this a popout menu*/
+    }
+
+
+		#zen-summary {
+			width: 80%;
+		}
+
+		#zen-preamble {
+			padding: 10%;
+			width: 80%;
+			margin-bottom: 1%;
+		}
+
+		#zen-explanation, #zen-participation, #zen-benefits, #zen-requirements {
+			width: 85%;
+			margin: 3%;
+			margin-bottom: 6%;
+		}
+}
+
+@media screen and (max-width: 795px) {
+	footer a {
+		padding: 0 3%;
+	}
 }
